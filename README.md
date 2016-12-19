@@ -17,7 +17,7 @@ Please see android-hpe for other details.
 ### Build JNI code and shared library for Android application
 * cd to the project root folder '[android-hpe-library_directory]'
 * Perform NDK build using 'ndk-build -j 2' (make sure ndk-build is accessible from your shell, otherwise you'll have to specify the absolute path!), this process builds .so files
-* Grab the folders located into '[android-hpe-library_directory]/libs', each folder contains a specific .so
+* Grab the folders located into '[android-hpe-library_directory]/libs', each folder contains a specific .so based on architecture
 * Put the folders into the Android project '[android-hpe_directory]/dlib/src/main/jniLibs'
 
 ### Credits
