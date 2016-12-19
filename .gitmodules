@@ -1,3 +1,6 @@
 [submodule "dlib"]
 	path = dlib
 	url = https://github.com/davisking/dlib
+[submodule "miniglog"]
+	path = miniglog
+	url = https://github.com/tzutalin/miniglog
