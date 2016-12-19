@@ -8,6 +8,8 @@ Please see android-hpe for other details.
 ### Prerequisites
 * Download Android-NDK from [Android website](https://developer.android.com/ndk/downloads/index.html)
 
+* It's crucial to know how the build process works. Please see [reference docs](https://developer.android.com/ndk/index.html) and also refer to [android.mk](http://android.mk/).
+
 * Install Android Debug Bride (ADB). You can download it via [Android SDK Manager](https://developer.android.com/sdk/installing/index.html)
 
 * Prepare an Android device for test
