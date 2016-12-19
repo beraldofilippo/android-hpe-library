@@ -14,5 +14,11 @@ Please see android-hpe for other details.
 
 * Prepare an Android device for test
 
+### Build JNI code and shared library for Android application
+* cd to the project root folder '<android-hpe-library_directory>'
+* Perform NDK build using 'ndk-build -j 2' (make sure ndk-build is accessible from your shell, otherwise you'll have to specify the absolute path!), this process builds .so files
+* Grab the .so files located into '[android-hpe-library_directory]/libs', they are in folders based on which architectures you've decided to build
+* Put the .so files into the Android project '[android-hpe_directory]/dlib/src/main/jniLibs'
+
 ### Credits
 This repository heavily relies and replicates works in [dlib-android](https://github.com/tzutalin/dlib-android) and in [gazr](https://github.com/severin-lemaignan/gazr).
