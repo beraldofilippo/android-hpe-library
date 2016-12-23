@@ -40,7 +40,7 @@ jint JNI_OnLoad(JavaVM* vm, void* reserved) {
 
 // Macro to define correctly native method names
 #define DLIB_JNI_METHOD(METHOD_NAME) \
-  Java_edu_unipd_dei_dlib_HeadPoseDetector_##METHOD_NAME
+  Java_com_beraldo_hpe_dlib_HeadPoseDetector_##METHOD_NAME
 
 jint JNIEXPORT JNICALL DLIB_JNI_METHOD(jniBitmapExtractFaceGazes)(JNIEnv* env, jobject thiz,
             jobject bitmap,
