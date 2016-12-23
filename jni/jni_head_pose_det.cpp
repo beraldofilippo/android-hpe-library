@@ -130,7 +130,7 @@ jint JNIEXPORT JNICALL DLIB_JNI_METHOD(jniInit)(JNIEnv* env, jobject thiz,
   }
 
   // Initialize references to classes and methods
-  jclass HeadPoseGaze_local = env->FindClass("edu/unipd/dei/dlib/HeadPoseGaze");
+  jclass HeadPoseGaze_local = env->FindClass("com/beraldo/hpe/dlib/HeadPoseGaze");
   if(HeadPoseGaze_local == NULL) {
       LOG(FATAL) << "Can't Find Class \"HeadPoseGaze\".\n";
       return JNI_ERR;
